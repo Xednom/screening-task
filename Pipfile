@@ -12,6 +12,9 @@ mysqlclient = "*"
 markdown = "*"
 django-registration = "*"
 djangorestframework = "*"
+black = "*"
+mypy = "*"
+pytest-django = "*"
 
 [requires]
 python_version = "3.8"
