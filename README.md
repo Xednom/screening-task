@@ -24,6 +24,12 @@ Migrate DB
 start local server
 ``` python manage.py runserver ```
 
+Create users(1 superuser and 1 normal account)
+``` python manage.py loadddata user ```
+
+Create api data for values and principles
+``` python manage.py loaddata agile_values_and_principles ```
+
 # Access the API endpoint
 To access the **API** root go to ```<localhost:8000>/api/v1/ or <127.0.0.1:8000>/api/v1/```
 
