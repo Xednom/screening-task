@@ -26,6 +26,7 @@ start local server
 
 Create users(1 superuser and 1 normal account)
 ``` python manage.py loadddata user ```
+password for the created users is **fishmond22**
 
 Create api data for values and principles
 ``` python manage.py loaddata agile_values_and_principles ```
