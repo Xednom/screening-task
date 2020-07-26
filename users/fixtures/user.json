@@ -2,7 +2,7 @@
   "model": "users.user",
   "pk": 1,
   "fields": {
-    "password": "fishmond22",
+    "password": "pbkdf2_sha256$180000$nMYNH5C8sq4o$458nsMJXxcFLHsj+xXafLFnwJIyJFXXYxHkfiFmQqRU=",
     "is_superuser": true,
     "username": "admin",
     "first_name": "",
@@ -16,7 +16,7 @@
   "model": "users.user",
   "pk": 2,
   "fields": {
-    "password": "fishmond22",
+    "password": "pbkdf2_sha256$180000$nMYNH5C8sq4o$458nsMJXxcFLHsj+xXafLFnwJIyJFXXYxHkfiFmQqRU=",
     "is_superuser": false,
     "username": "piso",
     "first_name": "",
