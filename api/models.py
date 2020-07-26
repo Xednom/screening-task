@@ -2,7 +2,6 @@ from django.db import models
 
 
 class BaseModel(models.Model):
-    status = models.BooleanField(default=True, null=True, blank=True)
     created_at = models.DateField(auto_now_add=True)
     updated_at = models.DateField(auto_now=True)
     created_by = models.CharField(max_length=150, null=True, blank=True)
@@ -17,7 +16,7 @@ class AgileValue(BaseModel):
     body = models.TextField()
 
     class Meta:
-        ordering = ["-title"]
+        ordering = ["id"]
 
     def __str__(self):
         return "%s" % (self.title)
@@ -28,7 +27,7 @@ class AgilePrinciple(BaseModel):
     body = models.TextField()
 
     class Meta:
-        ordering = ["-title"]
+        ordering = ["id"]
 
     def __str__(self):
         return "%s" % (self.title)
